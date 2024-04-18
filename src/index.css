@@ -1,0 +1,38 @@
+.connter-contanier {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#decrease {
+  background-color: hsl(0, 68%, 40%);
+}
+#increase {
+  background-color: hsl(98, 84%, 55%);
+}
+#reset {
+  background-color: hsl(197, 75%, 47%);
+}
+#reset:hover {
+  background-color: hsl(197, 75%, 37%);
+}
+#decrease:hover {
+  background-color: hsl(0, 68%, 30%);
+}
+#increase:hover {
+  background-color: hsl(98, 84%, 45%);
+}
